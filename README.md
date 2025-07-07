@@ -16,21 +16,21 @@ A comprehensive collection of Groovy scripts for Atlassian Jira ScriptRunner, pr
 ```
 jira-scriptrunner-groovy/
 ├── simple-scripts/
-│   ├── auto-assign-priority.groovy          # Auto assign based on priority
-│   ├── mandatory-comment-validator.groovy   # Require comments on transitions
-│   ├── set-due-date-custom-field.groovy     # Set due date from custom field
-│   └── copy-field-values.groovy             # Copy values between fields
+│   ├── auto_assign_priority.groovy          # Auto assign based on priority
+│   ├── mandatory_comment_validator.groovy   # Require comments on transitions
+│   ├── set_due_date_custom_field.groovy     # Set due date from custom field
+│   └── copy_field_values.groovy             # Copy values between fields
 ├── advanced-scripts/
-│   ├── auto-transition-subtasks.groovy      # Auto transition based on sub-tasks
-│   ├── create-subtasks-template.groovy      # Create sub-tasks from templates
-│   ├── slack-integration.groovy             # Slack webhook integration
-│   ├── database-validation.groovy           # External database validation
-│   ├── csv-report-generator.groovy          # Generate and attach CSV reports
-│   └── auto-link-issues.groovy              # Auto link related issues
+│   ├── auto_transition_subtasks.groovy      # Auto transition based on sub-tasks
+│   ├── create_subtasks_template.groovy      # Create sub-tasks from templates
+│   ├── slack_integration.groovy             # Slack webhook integration
+│   ├── database_validation.groovy           # External database validation
+│   ├── csv_report_generator.groovy          # Generate and attach CSV reports
+│   └── auto_link_issues.groovy              # Auto link related issues
 ├── listeners/
-│   └── status-history-listener.groovy       # Track status changes
+│   └── status_history_listener.groovy       # Track status changes
 ├── scheduled-jobs/
-│   └── due-date-reminders.groovy            # Send due date reminders
+│   └── due_date_reminders.groovy            # Send due date reminders
 ├── LICENSE
 └── README.md
 ```
