@@ -256,4 +256,3 @@ If you encounter issues or have questions:
 ---
 
 **Note**: Always backup your Jira instance before implementing new scripts in production environments.
-```
