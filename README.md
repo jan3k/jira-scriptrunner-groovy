@@ -20,6 +20,9 @@ jira-scriptrunner-groovy/
 │   ├── mandatory_comment_validator.groovy   # Require comments on transitions
 │   ├── set_due_date_custom_field.groovy     # Set due date from custom field
 │   └── copy_field_values.groovy             # Copy values between fields
+│   └── auto-assign-by-location.groovy       # Auto assign issue by location
+│   └── jira-gitlab-integration.sh           # Integration between jira and gitlab in bash
+│   └── notify-on-high-priority              # Notify based on priority (high)
 ├── advanced-scripts/
 │   ├── auto_transition_subtasks.groovy      # Auto transition based on sub-tasks
 │   ├── create_subtasks_template.groovy      # Create sub-tasks from templates
@@ -27,6 +30,7 @@ jira-scriptrunner-groovy/
 │   ├── database_validation.groovy           # External database validation
 │   ├── csv_report_generator.groovy          # Generate and attach CSV reports
 │   └── auto_link_issues.groovy              # Auto link related issues
+|   └── update-issue-status.py               # Update issue status via REST API
 ├── listeners/
 │   └── status_history_listener.groovy       # Track status changes
 ├── scheduled-jobs/
